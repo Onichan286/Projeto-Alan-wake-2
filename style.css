@@ -385,6 +385,25 @@ body {
     height: 0;
     width: 0;
     }
+    .centralizar {
+    background-image: url('https://pbs.twimg.com/media/GC0GELrXAAEsL8U.jpg:large');
+    background-attachment: fixed;
+    background-size: cover; }
+
+    .centralizar2 {
+    background-image: url('https://mfiles.alphacoders.com/100/1009258.jpeg');
+    background-attachment: fixed;
+    background-size: cover; }
+
+    .centralizar3 {
+    background-image: url('https://cdn2.steamgriddb.com/grid/d0c40ef3f0bd63a8c7aac896260ed946.png');
+    background-attachment: fixed;
+    background-size: cover; }
+
+    .centralizar4 {
+    background-image: url('https://wallpapers.com/images/hd/alan-wakein-rainy-darkness-f2rhaww3xqbv2m78.jpg');
+    background-attachment: fixed;
+    background-size: cover; }
 }
 
 /* ========== TABLETS ========== */
