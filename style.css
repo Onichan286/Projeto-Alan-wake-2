@@ -327,6 +327,10 @@ body {
     .footer .icon {
         font-size: 30px;
     }
+     ::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    }
 }
 
 /* ========== CELULARES ========== */
@@ -377,6 +381,10 @@ body {
     .footer .icon {
         font-size: 40px;
     }
+     ::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    }
 }
 
 /* ========== TABLETS ========== */
@@ -414,4 +422,9 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+ ::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    } 
 }
