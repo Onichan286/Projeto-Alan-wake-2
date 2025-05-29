@@ -335,29 +335,49 @@ body {
 
 /* ========== CELULARES ========== */
 @media screen and (max-width: 768px) {
-    .album, .album2, .album3 {
-        flex-direction: column;
-        width: 95%;
-        border-radius: 20px;
-        padding: 20px;
-    }
 
-    .album img, .album2 img, .album3 img,
+    .album, .album2, .album3 {
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    width: 850px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+    .album img,
+    .album2 img,
+    .album3 img,
     video {
         width: 150px;
         height: 150px;
         margin-bottom: 15px;
     }
 
-    .info, .info2, .info3 {
+    .info,
+    .info2,
+    .info3 {
         text-align: center;
     }
 
-    iframe, video {
+    iframe,
+    video {
         display: none;
     }
 
-    .centralizar, .centralizar2, .centralizar3, .centralizar4 {
+    iframe {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .centralizar,
+    .centralizar2,
+    .centralizar3,
+    .centralizar4 {
         padding: 20px;
         height: auto;
         min-height: 100vh;
@@ -401,11 +421,19 @@ body {
     background-size: cover; }
 
     .centralizar4 {
-    background-image: url('https://wallpapers.com/images/hd/alan-wakein-rainy-darkness-f2rhaww3xqbv2m78.jpg');
+    background-image: url('https://i.pinimg.com/736x/09/47/94/0947948f066a9de4f7ee26895a8a2e53.jpg');
     background-attachment: fixed;
     background-size: cover; }
-}
 
+    .social-links a {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    
+    }
+}
 /* ========== TABLETS ========== */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .album, .album2, .album3 {
