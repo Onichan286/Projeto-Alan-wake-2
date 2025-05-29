@@ -299,3 +299,109 @@ ul a:hover {
         font-size: 40px;
     }
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 400px) {
+    .album, .album2, .album3 {
+        flex-direction: column;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .album img, .album2 img, .album3 img,
+    video {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    iframe, video {
+        display: none; 
+    }
+
+    .footer .icon {
+        font-size: 30px;
+    }
+}
+
+/* ========== CELULARES ========== */
+@media screen and (max-width: 768px) {
+    .album, .album2, .album3 {
+        flex-direction: column;
+        width: 95%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .album img, .album2 img, .album3 img,
+    video {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .info, .info2, .info3 {
+        text-align: center;
+    }
+
+    iframe, video {
+        display: none;
+    }
+
+    .centralizar, .centralizar2, .centralizar3, .centralizar4 {
+        padding: 20px;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .footer .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .footer .icon {
+        font-size: 40px;
+    }
+}
+
+/* ========== TABLETS ========== */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .album, .album2, .album3 {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .album img, .album2 img, .album3 img {
+        width: 180px;
+        height: 180px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    video {
+        display: none;
+    }
+
+    .footer .icon {
+        font-size: 45px;
+    }
+}
+
