@@ -404,4 +404,14 @@ body {
         font-size: 45px;
     }
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
+img, iframe, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
